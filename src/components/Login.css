@@ -1,0 +1,290 @@
+.div4
+{
+    height:745px;
+    /* background-color:#E5E5E5; */
+}
+.signincard
+{
+    height:715px;
+    border-radius: 20px;
+    position: relative;
+    top: 16px;
+    width: 470px;
+    box-shadow: 0px 10px 10px 10px rgba(112, 144, 176, 0.12);
+    border: none;
+}
+.logo
+{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 45px;
+    left: 45px;
+    font-family: "public sans" , sans-serif;
+    line-height: 1.5;
+    border-radius: 25px;
+    
+}
+.signincard h1
+{
+    position: relative;
+    top: 145px;
+    left: 45px;
+    font-family: "public sans" , sans-serif;
+    font-size: 32px;
+    
+}
+.book
+{
+    position: relative;
+    top: 180px;
+}
+.div8
+{
+    height: 745px;
+    /* background-color:#E5E5E5; */
+}
+.createaccount
+{
+    
+    font-size: 0.875rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 750px;
+    top: 40px;
+    font-size: 13.8px;
+}
+.div8 h1
+{
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: "Public Sans", sans-serif;
+    position: relative;
+    top: 122px;
+    left: 242px;
+    font-size: 24px;
+}
+.enterdetail
+{
+    font-size: 1.1rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    color: rgb(99, 115, 129);
+    position: relative;
+    top: 125px;
+    left: 243px;
+}
+.div8 img
+{
+    width: 3.5%;
+    height:4%;
+    object-fit: cover;
+    position: relative;
+    left: 690px;
+    top: 60px;
+}
+.useemail
+{
+    height: 49px;
+    width: 480px;
+    position: relative;
+    top: 122px;
+    left: 244px;
+    border-radius: 10px;
+    background-color: #fccbe2;
+}
+.useemail p
+{
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+.loginemail
+{
+    height: 55px;
+    width: 480px;
+    border-radius: 10px;
+    position: relative;
+    top: 145px;
+    left: 244px;
+}
+.loginpwd
+{
+    height: 55px;
+    width: 480px;
+    border-radius: 10px;
+    position: relative;
+    top: 168px;
+    left: 244px;
+}
+.remember
+{
+    position: relative;
+    top: 192px;
+    left: 220px;
+    color:rgb(0, 171, 85);
+}
+.rme
+{
+    font-weight: 400;
+    font-family: "Public Sans", sans-serif;
+    position: relative;
+    top: 170px;
+    left: 280px;
+}
+.forgot{
+    font-weight: 600;
+    line-height: 1.57143;
+    font-size: 14px;
+    font-family: "Public Sans", sans-serif;
+    color: rgb(0, 171, 85);
+    text-decoration: none;
+    position: relative;
+    top: 119px;
+    left: 123px;
+}
+.loginsubmit
+{
+    height: 50px;
+    width: 480px;
+    border-radius: 10px;
+    position: relative;
+    top: 175px;
+    left: 244px;
+    background-color:#f45ca5;
+}
+.eye
+{
+    position: relative;
+    top: 129px;
+    left: 685px;
+}
+@media (max-width:1450px)
+{
+    .createaccount
+    {
+        position: relative;
+        left: 600px;
+    }
+    .signincard
+    {
+        width: 400px;
+    }
+}
+@media (max-width:1250px)
+{
+    .createaccount
+    {
+        position: relative;
+        left: 450px;
+    }
+    .signincard
+    {
+        width: 360px;
+    }
+}
+@media (max-width:1100px)
+{
+    .createaccount
+    {
+        position: relative;
+        left: 250px;
+    }
+    .signincard
+    {
+        width: 270px;
+    }
+    .div8 form
+    {
+        position: relative;
+        right: 140px;
+    }
+}
+/* @media (max-width:947px)
+{
+    .forgot
+    {
+        position: relative;
+        
+    }
+} */
+@media (max-width:860px)
+{
+    .createaccount
+    {
+        position: relative;
+        left: 50px;
+    }
+    .signincard
+    {
+        width: 270px;
+    }
+    .div8 form
+    {
+        position: relative;
+        right: 200px;
+    }
+    .div8 h1
+    {
+        position: relative;
+        left: 51px;
+    }
+    .enterdetail
+    {
+        position: relative;
+        left: 51px;
+    }
+    .signincard
+    {
+        width: 250px;
+    }
+}
+@media (max-width:800px)
+{
+    .createaccount
+    {
+        position: relative;
+        left: -7px;
+    }
+    .signincard
+    {
+        width: 270px;
+    }
+    .div8 form
+    {
+        position: relative;
+        right: 251px;
+    }
+    .div8 h1
+    {
+        position: relative;
+        left: -8px;
+    }
+    .enterdetail
+    {
+        position: relative;
+        left: -8px;
+    }
+    .signincard
+    {
+        width: 250px;
+    }
+}
+@media (max-width:746px)
+{
+    .div4
+    {
+        width: 100%;
+        height: 508px;
+    }
+    .signincard
+    {
+        height: 485px;
+    }
+    .div8
+    {
+        height:537px;
+        width: 705px;
+    }
+}

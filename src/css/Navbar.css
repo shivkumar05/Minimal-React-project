@@ -1,0 +1,41 @@
+.searchicon
+{
+    position: relative;
+    top: 14px;
+    color: black;
+    opacity: 0.7;
+    left: 20px;
+}
+.flag
+{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 1240px;
+    top: 13px;
+}
+.notificationicon
+{
+    position: relative;
+    left: 1250px;
+    top: 15px;
+    color: black;
+    opacity: 0.7;
+}
+.groupicon
+{
+    position: relative;
+    left: 1255px;
+    top: 15px;
+    color: black;
+    opacity: 0.7;
+}
+.profile
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 1265px;
+    top: 10px;
+}
