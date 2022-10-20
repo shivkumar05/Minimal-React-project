@@ -294,11 +294,12 @@
 {
     position: relative;
     top: 100px;
-    height: 220px;
+    height: 285px;
     width: 370px;
     border-radius: 20px;
     left: 100px;
     box-shadow:rgb(145 158 171 / 20%) 0px 0px 2px 0px, rgb(145 158 171 / 12%) 0px 12px 24px -4px;
+    
 }
 .p13
 {
@@ -448,8 +449,8 @@
     font-size: 24px;
     color: red;
     position: relative;
-    top: 140px;
-    right: 650px; ;
+    top: 128px;
+    right: 640px; ;
 }
 .card4img1
 {
@@ -458,7 +459,7 @@
     border:1px solid white;
     border-radius: 60px;
     position: relative;
-    top:135px;
+    top:126px;
     right: 610px;
     z-index: 2;
 }
@@ -469,7 +470,7 @@
     border:1px solid white;
     border-radius: 60px;
     position: relative;
-    top:135px;
+    top:126px;
     right: 620px;
     z-index: 1;
 }
@@ -480,23 +481,23 @@
     border:1px solid white;
     border-radius: 60px;
     position: relative;
-    top:135px;
+    top:126px;
     right: 630px;
 }
 .a36
 {
     font-weight: 500;
-    position:relative;
-    bottom:80px ;
-    left: 90px;
+    position: relative;
+    bottom: 90px;
+    left: 93px;
     font-size: 18px;
     opacity: 0.8;
 }
 .sms
 {
     position: relative;
-    bottom: 120px;
-    left: 700px;
+    bottom: 153px;
+    left: 735px;
     opacity: 0.7;
 }
 .share
@@ -513,7 +514,7 @@
     border:1px solid white;
     border-radius: 60px;
     position: relative;
-    right: 35px;
+    right: 10px;
     bottom: 55px;
 }
 .comment1
@@ -677,9 +678,19 @@ input[type=text] {
 .z3
 {
     position: relative;
-    left: 30px;
+    left: 50px;
     bottom: 80px;
     opacity: 0.8;
+}
+hr
+{
+    position: relative;
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+    bottom: 75px;
 }
 @media (max-width:1480px) {
     .flag

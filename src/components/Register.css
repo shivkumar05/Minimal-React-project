@@ -127,6 +127,11 @@
     top: 135px;
     left: 245px;
     background-color:#f45ca5;
+    border: none;
+}
+.submit:hover
+{
+    background-color: #ff7bbb;
 }
 /* .eye
 {
