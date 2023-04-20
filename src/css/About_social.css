@@ -53,3 +53,48 @@
     left: 244px;
     background-color:#f45ca5;
 }
+.aboutdetailh1
+{
+    position: relative;
+    top: 130px;
+    left: 250px;
+}
+@media (max-width:576px) {
+    #aboutdiv
+    {
+        position: relative;
+        right: 240px;
+    }
+}
+/* @media (max-width:1110px) {
+    #about1
+    {
+        position: relative;
+        left: 200px;
+    }
+    #about2
+    {
+        position: relative;
+        left: 200px;
+    }
+    #about3
+    {
+        position: relative;
+        left: 200px;
+    }
+    #about4
+    {
+        position: relative;
+        left: 200px;
+    }
+    #about5
+    {
+        position: relative;
+        left: 200px;
+    }
+    #aboutsubmit
+    {
+        position: relative;
+        left: 200px;
+    }
+} */

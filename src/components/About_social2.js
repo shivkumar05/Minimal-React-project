@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import '../css/About_social2.css';
-import './Login.css';
+import '../css/Login.css';
 import { Link } from "react-router-dom";
+
 const About_social2 = () => {
+
   var user_token = JSON.parse(localStorage.getItem('user'));
-  const [user, setUser] = useState(user_token.id);
+  const [user, setUser] = useState(user_token.user_id);
   const [linkedin, setLinkedin] = useState("");
   const [twitter, setTwitter] = useState("");
   const [instagram, setInstagram] = useState("");
   const [facebook, setFacebook] = useState("");
 
   const postUser = () => {
-    console.log(user_token)
     let token = user_token.access
     let item = { user, linkedin, twitter, instagram, facebook }
-    console.log(item)
     const requestOptions = {
       method: 'POST',
       headers: {
@@ -55,16 +55,12 @@ const About_social2 = () => {
           </div>
 
           <div className="col-sm-8 div8">
-            <input className="browseprofileimage" type="file"></input>
-            <img className="hahahaha" src="logo192.png" />
-            <h5 className="profilephoto">Profile photo</h5>
-            <h1>About details</h1>
-
+            <h1 className="socialdetailh1">Social details</h1>
             <input type="text" className="form-control about1" placeholder="Linkedin:" name="linkedin" value={linkedin} onChange={(e) => setLinkedin(e.target.value)} />
             <input type="text" className="form-control about2" placeholder="Twitter:" name="twitter" value={twitter} onChange={(e) => setTwitter(e.target.value)} />
             <input type="text" className="form-control about3" placeholder="Instagram:" name="instagram" value={instagram} onChange={(e) => setInstagram(e.target.value)} />
             <input type="text" className="form-control about4" placeholder="facebook:" name="facebook" value={facebook} onChange={(e) => setFacebook(e.target.value)} />
-            <Link to="/Blog"><button onClick={postUser} type="submit" className="btn aboutsubmit"><b style={{ color: "white" }}>Submit</b></button></Link>
+            <Link to="/Profilepic"><button onClick={postUser} type="submit" className="btn aboutsubmit"><b style={{ color: "white" }}>Submit</b></button></Link>
           </div>
         </div>
       </div>

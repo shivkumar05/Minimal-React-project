@@ -63,6 +63,7 @@
     position: relative;
     bottom: 50px;
 }
+
 .profilephoto
 {
     position: relative;
@@ -76,3 +77,16 @@
     position: relative;
     left: 300px;
     top: 85px;}
+    .socialdetailh1
+{
+    position: relative;
+    top: 130px;
+    left: 250px;
+}
+@media (max-width:576px) {
+    .div8
+    {
+        position: relative;
+        right: 240px;
+    }
+}
